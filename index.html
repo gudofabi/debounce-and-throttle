@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            padding: 10px;
+            border: 1px solid #f4f4f4;
+        }
+        input {
+            padding: 4px 5px;
+            border: 1px solid #c4c4c4;
+            margin: 20px 10px;
+            width: 500px;
+            height: 40px;
+            border-radius: 6px;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text">
+
+        <div class="container">
+            <h3>Default:</h3>
+            <p id="default"></p>
+        </div>
+        <div  class="container">
+            <h3>Debounce:</h3>
+            <p id="debounce"></p>
+        </div>
+        <div class="container">
+            <h3>Throttle:</h3>
+            <p id="throttle"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
